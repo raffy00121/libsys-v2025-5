@@ -31,11 +31,6 @@ class BookController extends Controller
         return view('records.books.create');
     }
 
-    public function createTest()
-    {
-        return view('records.books.test-create');
-    }
-
     /**
      * Store a newly created resource in storage.
      */
